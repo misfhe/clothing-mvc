@@ -1,0 +1,13 @@
+﻿@model List<OnlineShopTest.Models.CartItem>
+<a href="/Cart">
+    <div class="hubcart hubcart2 cart cart box_1">
+        <form action="#" method="post">
+            <input type="hidden" name="cmd" value="_cart">
+            <input type="hidden" name="display" value="1">
+            <div class="btn top_hub_cart mt-1" type="submit" name="submit" value="" title="Cart">
+                <img class="cart-plus" src="/Assets/client/images/cart-plus-solid.svg">
+                <span>&nbsp @Model.Count items</span>
+            </div>
+        </form>
+    </div>
+</a>

@@ -1,0 +1,176 @@
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\ApplicationInsights.config
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\roslyn\csc.exe
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\roslyn\vbc.exe
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\roslyn\VBCSCompiler.exe
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\OnlineShopTest.dll.config
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\OnlineShopTest.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\OnlineShopTest.pdb
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Antlr3.Runtime.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\EntityFramework.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\EntityFramework.SqlServer.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.AI.Web.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.ApplicationInsights.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Model.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Newtonsoft.Json.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Owin.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\System.Web.Helpers.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\System.Web.Mvc.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\System.Web.Optimization.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\System.Web.Razor.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\System.Web.WebPages.Deployment.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\System.Web.WebPages.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\System.Web.WebPages.Razor.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\WebGrease.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Model.pdb
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\EntityFramework.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\EntityFramework.SqlServer.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.AI.Web.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.ApplicationInsights.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\System.Web.Helpers.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\System.Web.Mvc.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\System.Web.Optimization.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\System.Web.Razor.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\System.Web.WebPages.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\System.Web.WebPages.Deployment.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\System.Web.WebPages.Razor.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Antlr3.Runtime.pdb
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Newtonsoft.Json.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\obj\Debug\OnlineShopTest.csprojResolveAssemblyReference.cache
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\obj\Debug\OnlineShopTest.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\obj\Debug\OnlineShopTest.pdb
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Common.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\Common.pdb
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\BotDetect.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\OnlineShopTest\bin\BotDetect.Web.UI.Mvc.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\ApplicationInsights.config
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\roslyn\csc.exe
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\roslyn\vbc.exe
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\roslyn\VBCSCompiler.exe
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\OnlineShopTest.dll.config
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\OnlineShopTest.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\OnlineShopTest.pdb
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Antlr3.Runtime.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\BotDetect.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\BotDetect.Web.UI.Mvc.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Common.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\EntityFramework.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\EntityFramework.SqlServer.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.AI.Web.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.ApplicationInsights.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Model.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Newtonsoft.Json.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Owin.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\System.Web.Helpers.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\System.Web.Mvc.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\System.Web.Optimization.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\System.Web.Razor.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\System.Web.WebPages.Deployment.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\System.Web.WebPages.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\System.Web.WebPages.Razor.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\WebGrease.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Common.pdb
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Model.pdb
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\EntityFramework.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\EntityFramework.SqlServer.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.AI.Web.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.ApplicationInsights.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\System.Web.Helpers.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\System.Web.Mvc.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\System.Web.Optimization.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\System.Web.Razor.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\System.Web.WebPages.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\System.Web.WebPages.Deployment.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\System.Web.WebPages.Razor.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Antlr3.Runtime.pdb
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Newtonsoft.Json.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\obj\Debug\OnlineShopTest.csprojResolveAssemblyReference.cache
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\obj\Debug\OnlineShopTest.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\OnlineShopTest\obj\Debug\OnlineShopTest.pdb

@@ -1,0 +1,252 @@
+﻿@model List<Model.EF.Product>
+@{
+    var category = (Model.EF.ProductCategory)ViewBag.Category;
+    ViewBag.Title = category.Name;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- inner banner -->
+<div class="ibanner_w3 pt-sm-5 pt-3">
+    <h4 class="head_agileinfo text-center text-capitalize text-center pt-5">
+        <span>f</span>ashion
+        <span>h</span>ub
+    </h4>
+</div>
+<!-- //inner banner -->
+<!-- breadcrumbs -->
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+            <a href="/">Home</a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">@category.Name</li>
+    </ol>
+</nav>
+<!-- //breadcrumbs -->
+<!-- Shop -->
+<div class="innerf-pages section">
+    <div class="fh-container mx-auto">
+        <div class="row my-lg-5 mb-5">
+            <!-- grid left -->
+            <div class="side-bar col-lg-3">
+                <!--preference -->
+                <div class="left-side">
+                    <h3 class="shopf-sear-headits-sear-head">
+                        Categories
+                    </h3>
+                    <ul>
+                        <li>
+                            <input type="checkbox" class="checked" name="cat1" id="cat1">
+                            <label for="cat1">Fashion</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" class="checked" name="cat2" id="cat2">
+                            <label for="cat2">Popular</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" class="checked" name="cat3" id="cat3">
+                            <label for="cat3">Trending</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" class="checked" name="cat4" id="cat4">
+                            <label for="cat4">Sort by popularity</label>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- // preference -->
+                <div class="search-hotel">
+                    <h3 class="shopf-sear-headits-sear-head">
+                        <span>Brand</span> in focus
+                    </h3>
+                    <form action="#" method="post">
+                        <input type="search" placeholder="search here" name="search" required="">
+                        <input type="submit" value="Search">
+                    </form>
+                </div>
+                <!-- price range -->
+                <div class="range">
+                    <h3 class="shopf-sear-headits-sear-head">
+                        <span>Price</span> range
+                    </h3>
+                    <ul class="dropdown-menu6">
+                        <li>
+
+                            <div id="slider-range"></div>
+                            <input type="text" id="amount" style="border: 0; color: #ffffff; font-weight: normal;" />
+                        </li>
+                    </ul>
+                </div>
+                <!-- //price range -->
+                <!--preference -->
+                <div class="left-side">
+                    <h3 class="shopf-sear-headits-sear-head">
+                        <span>latest</span> arrivals
+                    </h3>
+                    <ul>
+                        <li>
+                            <input type="checkbox" class="checked" name="arr1" id="arr1">
+                            <label for="arr1">last 30 days</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" class="checked" name="arr2" id="arr2">
+                            <label for="arr2">last 90 days</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" class="checked" name="arr3" id="arr3">
+                            <label for="arr3">last 150 days</label>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- // preference -->
+                <!-- Binding -->
+                <div class="left-side">
+                    <h3 class="shopf-sear-headits-sear-head">Color</h3>
+                    <div class="d-flex">
+                        <ul>
+                            <li>
+                                <input type="checkbox" class="checked" name="color1" id="color1">
+                                <label for="color1">Black</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="checked" name="color2" id="color2">
+                                <label for="color2">Blue</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="checked" name="color3" id="color3">
+                                <label for="color3">Red</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="checked" name="color4" id="color4">
+                                <label for="color4">Yellow</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="checked" name="color5" id="color5">
+                                <label for="color5">White</label>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <input type="checkbox" class="checked" name="color6" id="color6">
+                                <label for="color6">Green</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="checked" name="color7" id="color7">
+                                <label for="color7">Multi</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="checked" name="color8" id="color8">
+                                <label for="color8">Purple</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="checked" name="color9" id="color9">
+                                <label for="color9">Gold</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="checked" name="color10" id="color10">
+                                <label for="color10">Orange</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- //Binding -->
+
+
+            </div>
+            <!-- //grid left -->
+            <!-- grid right -->
+            <div class="col-lg-9 mt-lg-0 mt-5 right-product-grid">
+                <!-- card group  -->
+                <div class="card-group">
+                    <!-- card -->
+                    @foreach (var item in Model)
+                    {
+                        var url = "/detail/" + item.Code + "-" + item.ID;
+                        <div class="col-lg-3 col-sm-6 p-0">
+                            <div class="card product-men p-3">
+                                <div class="men-thumb-item">
+                                    <img src="@item.Image" alt="img" class="card-img-top">
+                                    <div class="men-cart-pro">
+                                        <div class="inner-men-cart-pro">
+                                            <a href="@url" class="link-product-add-cart">Quick View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- card body -->
+                                <div class="card-body  py-3 px-2">
+                                    <h5 class="card-title text-capitalize">@item.Name</h5>
+                                    <div class="card-text d-flex justify-content-between">
+                                        <p class="text-dark font-weight-bold">$@(item.PromotionPrice.HasValue ? item.PromotionPrice.Value.ToString("N0") : "Liên hệ")</p>
+                                        <p class="line-through">$@(item.Price.HasValue ? item.Price.Value.ToString("N0") : "Liên hệ")</p>
+                                    </div>
+                                </div>
+                                <!-- card footer -->
+                                <div class="card-footer d-flex justify-content-end">
+                                    <form action="#" method="post">
+                                        <input type="hidden" name="cmd" value="_cart">
+                                        <input type="hidden" name="add" value="1">
+                                        <input type="hidden" name="hub_item" value="@item.Name">
+                                        <input type="hidden" name="amount" value="@item.PromotionPrice">
+                                        <div class="add-cart">
+                                            <h4><a href="/add-to-cart?productId=@item.ID&quantity=1">Add to cart</a></h4>
+                                        </div>
+                                        <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                    <div class="clear"></div>
+                    <!--Custom Pages-->
+                    @if (ViewBag.TotalPage > 0)
+                    {
+                        //Tổng số trang hiển thị (hiện tại đang là 5(ví dụ: ... 6 7 8 9 10))
+                        var pageDisplay = (int)ViewBag.MaxPage;
+
+                        //Tổng số trang có thể hiển thị (lấy tổng sản phẩm/ pageSize)
+                        int totalPage = (int)ViewBag.TotalPage;
+
+                        //Trang hiện tại
+                        int currentPage = ((int)ViewBag.Page);
+
+
+                        //Create numberic links
+                        var startPageIndex = Math.Max(1, currentPage - pageDisplay / 2);
+                        var endPageIndex = Math.Min(totalPage, currentPage + pageDisplay / 2);
+
+                        var link = "/category/" + category.Code + "-" + category.ID;
+                        
+                        <div class="paging">
+                            @if(currentPage>ViewBag.First)
+                            {
+                                <a href="@link?page=@ViewBag.First" title="First Page" class="first"><i class="fa fa-angle-double-left"></i></a>
+                                <a href="@link&page=@ViewBag.Prev" title="Previous Page" class="prev"><i class="fa fa-angle-left"></i></a>
+                            }
+                            @for(int i = startPageIndex; i <= endPageIndex; i++)
+                            {
+                                if (currentPage == i)
+                                {
+                                    <a href="@link?page=@i" class="active" title="Page @i">@i</a>
+                                }else
+                                {
+                                    <a href="@link?page=@i" title="Page @i" class="pos">@i</a>
+                                }
+                            }
+
+                            @if (currentPage < totalPage)
+                            {
+                                <a href="@link?page=@ViewBag.Next" title="Next Page" class="next"><i class="fa fa-angle-right"></i></a>
+                                <a href="@link?page=@ViewBag.Last" title="Last Page" class="last"><i class="fa fa-angle-double-right"></i></a>
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        <span>Sorry, we are out of stock</span>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

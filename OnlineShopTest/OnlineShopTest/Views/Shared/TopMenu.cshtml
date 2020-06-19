@@ -1,0 +1,45 @@
+﻿@model List<Model.EF.Menu>
+@using OnlineShopTest.Common
+@{
+    var session = (UserLogin)Session[OnlineShopTest.Common.CommonConstants.USER_SESSION];
+}
+@if (session == null)
+
+{
+    foreach (var item in Model)
+    {
+        <div class="@item.Text" id="@item.Code">
+            <span class="nav-item"><a href="@item.Path" target="@item.Target">@item.Text</a></span>
+        </div>
+    }
+}
+else
+{
+    <div id="welcome-user">
+        <span>
+            Welcome, @session.UserName
+        </span>
+    </div>
+    <div id="log-out">
+        <span>
+            @Html.ActionLink("Log out","Logout","User")
+        </span>
+    </div>
+}
+
+<style>
+    #welcome-user{
+        right: 350px;
+        position: absolute;
+        text-align: center;
+        white-space: nowrap;
+        margin-top: 10px;
+    }
+    #log-out{
+        right: 290px;
+        position: absolute;
+        text-align: center;
+        white-space: nowrap;
+        margin-top: 10px;
+    }
+</style>

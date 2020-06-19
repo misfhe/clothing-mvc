@@ -1,0 +1,424 @@
+﻿
+@{
+    ViewBag.Title = "Trang chủ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var slides = (List<Model.EF.Slide>)ViewBag.Slides;
+    var listNewProducts = (List<Model.EF.Product>)ViewBag.ListNewProduct;
+    var listTopHotProducts = (List<Model.EF.Product>)ViewBag.ListTopHotProduct;
+}
+@section slide
+{
+    <!-- banner -->
+    <div class="banner-text">
+        <div class="callbacks_container">
+            <ul class="rslides" id="slider3">
+                @foreach (var item in slides)
+                {
+                    <li class="banner">
+                        <div class="container">
+                            <h3 class="agile_btxt">
+                                <span>f</span>ashion
+                                <span>h</span>ub
+                            </h3>
+                            <h4 class="w3_bbot">shop exclusive clothing</h4>
+                            <div class="slider-info mt-sm-5">
+                                <h4 class="bn_right">
+                                    <span>w</span>omen's
+                                    <span>f</span>ashion
+                                </h4>
+                                <div class="bnr_clip position-relative">
+                                    <h4>
+                                        get up to
+                                        <span class="px-2">45% </span>
+                                    </h4>
+                                    <div class="d-inline-flex flex-column banner-pos position-absolute text-center">
+                                        <div class="bg-flex-item">
+                                            <span>O</span>
+                                        </div>
+                                        <div class="bg-flex-item">
+                                            <span>F</span>
+                                        </div>
+                                        <div class="bg-flex-item">
+                                            <span>
+                                                F
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <p class="text-uppercase py-2">on special sale</p>
+                                    <a class="btn btn-primary mt-3 text-capitalize" href="shop.html" role="button">shop now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+    <!-- //banner -->
+    <!--services-->
+    <div class="agileits-services" id="services">
+        <div class="no-gutters agileits-services-row row">
+            <div class="col-lg-3 col-sm-6 agileits-services-grids p-sm-5 p-3">
+                <span class="syncImg">
+                    <img src="/Assets/client/images/sync-alt-solid.svg" />
+                </span>
+                <h4 class="mt-2 mb-3">30 days replacement</h4>
+            </div>
+            <div class="col-lg-3 col-sm-6 agileits-services-grids p-sm-5 p-3">
+                <span class="gift">
+                    <img src="/Assets/client/images/gift-solid.svg" />
+                </span>
+                <h4 class="mt-2 mb-3">Gift Card</h4>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 agileits-services-grids p-sm-5 p-3">
+                <span class="lock">
+                    <img src="/Assets/client/images/lock-solid.svg" />
+                </span>
+                <h4 class="mt-2 mb-3">secure payments</h4>
+            </div>
+            <div class="col-lg-3 col-sm-6 agileits-services-grids p-sm-5 p-3">
+                <span class="shipping-fast">
+                    <img src="/Assets/client/images/shipping-fast-solid.svg" />
+                </span>
+                <h4 class="mt-2 mb-3">free shipping</h4>
+            </div>
+        </div>
+    </div>
+    <!-- //services-->
+    <!-- about -->
+    <div class="row no-gutters pb-5">
+        <div class="col-sm-4">
+            <div class="hovereffect">
+                <img class="img-fluid" src="/Assets/client/images/a1.jpg" alt="">
+                <div class="overlay">
+                    <h5>women's fashion</h5>
+                    <a class="info" href="women.html">Shop Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="hovereffect">
+                <img class="img-fluid" src="/Assets/client/images/a2.jpg" alt="">
+                <div class="overlay">
+                    <h5>men's fashion</h5>
+                    <a class="info" href="men.html">Shop Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="hovereffect">
+                <img class="img-fluid" src="/Assets/client/images/a3.jpg" alt="">
+                <div class="overlay">
+                    <h5>kid's fashion</h5>
+                    <a class="info" href="girls.html">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //about -->
+}
+
+<!-- product tabs -->
+<section class="tabs_pro py-md-5 pt-sm-3 pb-5">
+    <h5 class="head_agileinfo text-center text-capitalize pb-5">
+        <span>s</span>mart clothing
+    </h5>
+    <div class="tabs tabs-style-line pt-md-5">
+        <nav class="container">
+            <ul id="clothing-nav" class="nav nav-tabs tabs-style-line" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#women" id="women-tab" role="tab" data-toggle="tab" aria-controls="women" aria-expanded="true">New Product</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#men" role="tab" id="men-tab" data-toggle="tab" aria-controls="men">
+                        Top Hot Product
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Content Panel -->
+        <div id="clothing-nav-content" class="tab-content py-sm-5">
+            <div role="tabpanel" class="tab-pane fade show active" id="women" aria-labelledby="women-tab">
+                <div id="owl-demo" class="owl-carousel text-center">
+                    @foreach (var item in listNewProducts)
+                    {
+                        var url = "/detail/" + item.Code + "-" + item.ID;
+                        <div class="item">
+                            <!-- card -->
+                            <div class="card product-men p-3">
+                                <div class="men-thumb-item">
+                                    <img src="@item.Image" alt="img" class="card-img-top">
+                                    <div class="men-cart-pro">
+                                        <div class="inner-men-cart-pro">
+                                            <a href="@url" class="link-product-add-cart">Quick View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- card body -->
+                                <div class="card-body  py-3 px-2">
+                                    <h5 class="card-title text-capitalize">@item.Name</h5>
+                                    <div class="card-text d-flex justify-content-between">
+                                        <p class="text-dark font-weight-bold">$@(item.PromotionPrice.HasValue ? item.PromotionPrice.Value.ToString("N0") : "Liên hệ")</p>
+                                        <p class="line-through">$@item.Price</p>
+                                    </div>
+                                </div>
+                                <!-- card footer -->
+                                <div class="card-footer d-flex justify-content-end">
+                                    <form action="#" method="post">
+                                        <input type="hidden" name="cmd" value="_cart">
+                                        <input type="hidden" name="add" value="1">
+                                        <input type="hidden" name="hub_item" value="@item.Name">
+                                        <input type="hidden" name="amount" value="@item.PromotionPrice">
+                                        <div class="add-cart">
+                                            <h4><a href="/add-to-cart?productId=@item.ID&quantity=1">Add to cart</a></h4>
+                                        </div>
+                                        <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- //card -->
+                        </div>
+                    }
+
+
+                    <div class="item">
+                        <div class="product-men p-3 text-center">
+                            <img src="/Assets/client/images/p2.png" class="img-responsive" alt="" />
+                            <a href="/san-pham" class="btn btn-lg bg-info text-white">view more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div role="tabpanel" class="tab-pane fade" id="men" aria-labelledby="men-tab">
+                <div id="owl-demo1" class="owl-carousel text-center">
+
+                    @foreach (var item in listTopHotProducts)
+                    {
+                        var url = "/detail/" + item.Code + "-" + item.ID;
+                        <div class="item">
+                            <!-- card -->
+                            <div class="card product-men p-3">
+                                <div class="men-thumb-item">
+                                    <img src="@item.Image" alt="img" class="card-img-top">
+                                    <div class="men-cart-pro">
+                                        <div class="inner-men-cart-pro">
+                                            <a href="@url" class="link-product-add-cart">Quick View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- card body -->
+                                <div class="card-body  py-3 px-2">
+                                    <h5 class="card-title text-capitalize">@item.Name</h5>
+                                    <div class="card-text d-flex justify-content-between">
+                                        <p class="text-dark font-weight-bold">$@(item.PromotionPrice.HasValue ? item.PromotionPrice.Value.ToString("N0") : "Liên hệ")</p>
+                                        <p class="line-through">$@item.Price</p>
+                                    </div>
+                                </div>
+                                <!-- card footer -->
+                                <div class="card-footer d-flex justify-content-end">
+                                    <form action="#" method="post">
+                                        <input type="hidden" name="cmd" value="_cart">
+                                        <input type="hidden" name="add" value="1">
+                                        <input type="hidden" name="hub_item" value="@item.Name">
+                                        <input type="hidden" name="amount" value="@item.PromotionPrice">
+                                        <div class="add-cart">
+                                            <h4><a href="/add-to-cart?productId=@item.ID&quantity=1">Add to cart</a></h4>
+                                        </div>
+                                        <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- //card -->
+                        </div>
+                    }
+
+                    <div class="item">
+
+                        <div class="product-men p-3 text-center">
+                            <img src="/Assets/client/images/p2.png" class="img-responsive" alt="">
+                            <a href="/san-pham" class="btn btn-lg bg-info text-white">view more</a>
+                        </div>
+                        <!-- //card -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //product tabs -->
+<!-- insta posts -->
+<section class="py-lg-5">
+    <!-- insta posts -->
+    <h5 class="head_agileinfo text-center text-capitalize pb-5">
+        <span>s</span>hop on insta
+    </h5>
+    <div class="gallery row no-gutters pt-lg-5">
+        <div class="col-lg-2 col-sm-4 col-6 gallery-item">
+            <img src="/Assets/client/images/i1.jpg" class="img-fluid" alt="" />
+            <div class="gallery-item-info">
+                <ul>
+                    <li class="gallery-item-likes">
+                        <i class="fas fa-heart"></i> 56
+                    </li>
+                    <li class="gallery-item-comments">
+                        <i class="fas fa-comment"></i> 2
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 gallery-item">
+            <img src="/Assets/client/images/i2.jpg" class="img-fluid" alt="" />
+            <div class="gallery-item-info">
+                <ul>
+                    <li class="gallery-item-likes">
+                        <i class="fas fa-heart"></i> 89
+                    </li>
+                    <li class="gallery-item-comments">
+                        <i class="fas fa-comment"></i> 5
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 gallery-item">
+            <img src="/Assets/client/images/i3.jpg" class="img-fluid" alt="" />
+            <div class="gallery-item-info">
+                <ul>
+                    <li class="gallery-item-likes">
+                        <i class="fas fa-heart"></i> 42
+                    </li>
+                    <li class="gallery-item-comments">
+                        <i class="fas fa-comment"></i> 1
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 gallery-item">
+            <img src="/Assets/client/images/i4.jpg" class="img-fluid" alt="" />
+            <div class="gallery-item-info">
+                <ul>
+                    <li class="gallery-item-likes">
+                        <i class="fas fa-heart"></i> 38
+                    </li>
+                    <li class="gallery-item-comments">
+                        <i class="fas fa-comment"></i> 0
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 gallery-item">
+            <img src="/Assets/client/images/i5.jpg" class="img-fluid" alt="" />
+            <div class="gallery-item-info">
+                <ul>
+                    <li class="gallery-item-likes">
+                        <i class="fas fa-heart"></i> 38
+                    </li>
+                    <li class="gallery-item-comments">
+                        <i class="fas fa-comment"></i> 0
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 gallery-item">
+            <img src="/Assets/client/images/i6.jpg" class="img-fluid" alt="" />
+            <div class="gallery-item-info">
+                <ul>
+                    <li class="gallery-item-likes">
+                        <i class="fas fa-heart"></i> 38
+                    </li>
+                    <li class="gallery-item-comments">
+                        <i class="fas fa-comment"></i> 0
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="gallery row no-gutters pb-5">
+        <div class="col-lg-2 col-sm-4 col-6 gallery-item">
+            <img src="/Assets/client/images/i7.jpg" class="img-fluid" alt="" />
+            <div class="gallery-item-info">
+                <ul>
+                    <li class="gallery-item-likes">
+                        <i class="fas fa-heart"></i> 56
+                    </li>
+                    <li class="gallery-item-comments">
+                        <i class="fas fa-comment"></i> 2
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 gallery-item">
+            <img src="/Assets/client/images/i8.jpg" class="img-fluid" alt="" />
+            <div class="gallery-item-info">
+                <ul>
+                    <li class="gallery-item-likes">
+                        <i class="fas fa-heart"></i> 89
+                    </li>
+                    <li class="gallery-item-comments">
+                        <i class="fas fa-comment"></i> 5
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 gallery-item">
+            <img src="/Assets/client/images/i9.jpg" class="img-fluid" alt="" />
+            <div class="gallery-item-info">
+                <ul>
+                    <li class="gallery-item-likes">
+                        <i class="fas fa-heart"></i> 42
+                    </li>
+                    <li class="gallery-item-comments">
+                        <i class="fas fa-comment"></i> 1
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 gallery-item">
+            <img src="/Assets/client/images/i10.jpg" class="img-fluid" alt="" />
+            <div class="gallery-item-info">
+                <ul>
+                    <li class="gallery-item-likes">
+                        <i class="fas fa-heart"></i> 38
+                    </li>
+                    <li class="gallery-item-comments">
+                        <i class="fas fa-comment"></i> 0
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 gallery-item">
+            <img src="/Assets/client/images/i11.jpg" class="img-fluid" alt="" />
+            <div class="gallery-item-info">
+                <ul>
+                    <li class="gallery-item-likes">
+                        <i class="fas fa-heart"></i> 38
+                    </li>
+                    <li class="gallery-item-comments">
+                        <i class="fas fa-comment"></i> 0
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 gallery-item">
+            <img src="/Assets/client/images/i12.jpg" class="img-fluid" alt="" />
+            <div class="gallery-item-info">
+                <ul>
+                    <li class="gallery-item-likes">
+                        <i class="fas fa-heart"></i> 38
+                    </li>
+                    <li class="gallery-item-comments">
+                        <i class="fas fa-comment"></i> 0
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //insta posts -->
+
+<style>
+    #services img{
+        width:35%;
+    }
+</style>

@@ -1,0 +1,24 @@
+﻿@model List<Model.EF.ProductCategory>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-auto text-center">
+        <li class="nav-item">
+            <a class="nav-link" href="/">
+                Home
+            </a>
+        </li>
+        @foreach (var item in Model)
+        {
+           <li class="nav-item">
+                         <a class="nav-link" href="/category/@item.Code - @item.ID" >
+                             @item.Name
+                         </a>
+                     </li>
+        }
+
+        <li class="nav-item">
+            <a class="nav-link" href="/Contact">
+                Contact
+            </a>
+        </li>
+    </ul>
+</div>

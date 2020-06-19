@@ -1,0 +1,19 @@
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\Model\bin\Debug\Model.dll.config
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\Model\bin\Debug\Model.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\Model\bin\Debug\Model.pdb
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\Model\bin\Debug\EntityFramework.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\Model\bin\Debug\EntityFramework.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\Model\obj\Debug\Model.dll
+C:\Users\trinh\Documents\Visual Studio 2015\Projects\OnlineShopTest\Model\obj\Debug\Model.pdb
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\Model\bin\Debug\Model.dll.config
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\Model\bin\Debug\Model.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\Model\bin\Debug\Model.pdb
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\Model\bin\Debug\EntityFramework.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\Model\bin\Debug\EntityFramework.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\Model\obj\Debug\Model.dll
+C:\Users\trinh\Desktop\mvc example\OnlineShopTest\OnlineShopTest\Model\obj\Debug\Model.pdb
